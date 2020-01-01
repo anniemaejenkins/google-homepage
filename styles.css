@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav{
     display: flex;
 }
@@ -15,6 +17,17 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+button{
+    border-radius: 2px;
+    background: #4387fd;
+    border-color: #4683ea;
+    font-size: 13px;
+    width: 68px;
+    height: 30px;
+}
+button a{
+    color: #fff;
 }
 .alignleft{
     float: left;
