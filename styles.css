@@ -10,4 +10,15 @@ nav ul{
 }
 nav li{
     list-style: none;
+    margin: 1em;
+    font-size: 14px;
+}
+nav a{
+    text-decoration: none;
+}
+.alignleft{
+    float: left;
+}
+.alignright{
+    float: right;
 }
