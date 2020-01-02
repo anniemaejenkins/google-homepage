@@ -42,3 +42,16 @@ button{
 .alignright{
     float: right;
 }
+.center_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.google_logo{
+    display: block;
+}
+footer{
+    display: flex;
+}
