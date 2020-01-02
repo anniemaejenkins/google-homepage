@@ -3,6 +3,9 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 nav{
     display: flex;
@@ -26,7 +29,7 @@ nav a{
     height: 30px;
     width: 30px;
 }
-button{
+.sign_in{
     border-radius: 2px;
     background: #4387fd;
     border-color: #4683ea;
@@ -48,10 +51,14 @@ button{
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
+    flex-direction: column;
 }
 .google_logo{
-    display: block;
+    display: flex;
 }
 footer{
     display: flex;
+    height: 20px;
+    width: 100vw;
+    background: #f2f2f2;
 }
