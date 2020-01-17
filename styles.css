@@ -65,8 +65,8 @@ nav a{
 
 /* navigation bar at the bottom of the page */
 
-.bottom_nav{
-    display: flex;
+footer{
+    display: block;
     height: 50px;
     width: 100%;
     background: #f2f2f2;
@@ -76,11 +76,10 @@ nav a{
     margin: 0;
 }
 .bottom_left{
-    display: flex;
-    flex-flow: row;
+    float: left;
+    margin: 5px;
 }
 .bottom_right{
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
+    float: right;
+    margin: 5px;
 }
