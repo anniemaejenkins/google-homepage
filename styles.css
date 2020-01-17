@@ -61,6 +61,30 @@ nav a{
 }
 .google_logo{
     display: flex;
+    margin: auto;
+}
+form{
+    position: relative;
+    margin: 25px;
+}
+.fas{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color: #dfe1e5;
+}
+#search_bar{
+    width: 528px;
+    height: 40px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    border-width: 1px;
+    border-radius: 30px;
+}
+#buttons{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 .search{
     background: #f2f2f2;
@@ -69,6 +93,7 @@ nav a{
     color: #5f6368;
     border-style: none;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .lucky{
     background: #f2f2f2;
