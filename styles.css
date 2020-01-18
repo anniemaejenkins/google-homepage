@@ -28,11 +28,11 @@ nav a{
     opacity: .75;
     font-size: 13px;
 }
-.grid_button{
+#grid_button{
     height: 30px;
     width: 30px;
 }
-.sign_in{
+#sign_in{
     border-radius: 2px;
     background: #4387fd;
     border-color: #4683ea;
@@ -42,16 +42,16 @@ nav a{
     color: #fff;
     font-weight: bold;
 }
-.alignleft{
+#alignleft{
     float: left;
 }
-.alignright{
+#alignright{
     float: right;
 }
 
 /* center of the page with logo and search box */
 
-.center_content{
+#center_content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@ nav a{
     min-width: 100vw;
     flex-direction: column;
 }
-.google_logo{
+#google_logo{
     display: flex;
     margin: auto;
 }
@@ -86,7 +86,7 @@ form{
     flex-flow: row;
     justify-content: center;
 }
-.search{
+#search{
     background: #f2f2f2;
     font-size: 13px;
     padding: 10px 15px;
@@ -95,7 +95,7 @@ form{
     border-radius: 5px;
     margin-right: 10px;
 }
-.lucky{
+#lucky{
     background: #f2f2f2;
     font-size: 13px;
     padding: 10px 15px;
@@ -116,11 +116,11 @@ footer{
     bottom: 0;
     margin: 0;
 }
-.bottom_left{
+#bottom_left{
     float: left;
     margin: 5px;
 }
-.bottom_right{
+#bottom_right{
     float: right;
     margin: 5px;
 }
